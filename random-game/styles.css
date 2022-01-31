@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0e1e4;
+}
+
+.title {
+  font-size: 4rem;
+  color: #212225;
+  text-shadow: 2px 3px #2435d5;
+  text-align: center;
+  font-family: inherit;
+}
+
+.btnInput {
+  float: right;
+  position: absolute;
+  right: 25%;
+  top: 20%;
+}
+
+.guess {
+  width: 90px;
+  height: 70px;
+  border: 4px solid #212225;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 10px;
+  color: #2435d5;
+  display: block;
+  background: #e0e1e4;
+}
+
+.btn {
+  width: 45px;
+  height: 35px;
+  border: 1px solid #212225;
+  border-radius: 10px;
+  color: #2435d5;
+  margin-top: 5px;
+  font-size: 15px;
+  background: #e0e1e4;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.scoreComment {
+  position: absolute;
+  left: 25%;
+  top: 20%;
+}
+
+.score {
+  color: #212225;
+  font-size: 2rem;
+}
+
+.comment {
+  font-size: 2.5rem;
+  font-family: inherit;
+  color: #2435d5;
+}
+
+.number {
+  color: #2435d5;
+  font-size: 6rem;
+  width: 15rem;
+  padding: 3rem 0rem;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border: 2px solid #212225;
+  border-radius: 15px;
+}
+
+.rules {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  color: #e0e1e4;
+  text-shadow: 2px 3px #212225;
+  font-size: 1.5rem;
+}
+
+footer {
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+  color: #2435d5;
+  text-align: center;
+}
